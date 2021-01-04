@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    padding: 5%;
+}
+
+#logo {
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+    /* pointer-events: all; */
+    /* display: block; */
+}
+
+nav {
+    background-color: #004AAD;
+    color: white;
+    padding: 2%;
+    border: 0;
+}
+.nav-button {
+    display: block;
+    position: relative;
+    text-align: right;
+}
+.nav-button button {
+    padding: 10px;
+}
+
+#heading {
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 5%;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.products {
+    font-weight: normal;
+    text-align: center;
+}
+.products-container {
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 5%;
+}
+
+.orders {
+    font-weight: normal;
+    text-align: center;
+}
+.orders-container {
+    display: inline-block;
+    padding: 0 3%;
+    text-align: left;
+}
+
+.team-info {
+    font-weight: normal;
+    text-align: center;
+}
+.team-person {
+    display: inline-block;
+    padding: 2% 3%;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2%;
+    padding: 2%;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    background-color: #004AAD;
+    color: white;
+}
+footer a {
+    color: white;
+}
+
+a {
+    color: black;
+}
